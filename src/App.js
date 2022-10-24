@@ -19,7 +19,6 @@ const App = () => {
             <Link to="/">
               <img src="images/icons/logo.svg" alt="logo" />
             </Link>
-              <h2>홈</h2>
               <h2>검색</h2>
               <h2>관심 콘텐츠</h2>
               <h2>오리지널</h2>

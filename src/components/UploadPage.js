@@ -98,11 +98,13 @@ const UploadPage = () => {
             rules={[{ required: true, message: "제작년도 • 시간을 입력해주세요" }]}
             name="price"
           >
-            <InputNumber
+            <Input
               className="upload-price"
               size="large"
-              min={0}
-              defaultValue={0}
+              placeholder="제작년도 • 시간을 입력해주세요"
+
+              // min={0}
+              // defaultValue={0}
             />
           </Form.Item>
           <Divider />
