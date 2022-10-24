@@ -11,7 +11,26 @@
   background: url(https://static-assets.bamgrid.com/product/disneyplus/images/background.dc67869….png)
     50% / cover no-repeat fixed;
 }
-
+.gnb + button {
+  margin-top: 13px;
+  background: rgba(0,0,0,.6);
+  border: 1px solid #f9f9f9;
+  border-radius: 0.25rem;
+}
+.ant-btn > span {
+  color: #f9f9f9;}
+.anticon svg path{
+  border-radius: 0.25rem;
+  color: #f9f9f9;}
+.ant-btn:not([disabled]):hover {
+  text-decoration: none;
+}
+.ant-btn:hover > span{
+  color: #222;
+}
+.ant-btn:hover .anticon svg path{
+  color: #222;
+}
 /* header */
 #header {
   padding: 0 36px;
@@ -63,6 +82,7 @@
   line-height: 1.4;
   color: #cacaca;
   padding: 25px 0 30px 0;
+  font-weight: 600;
 }
 #body > h1 {
   margin-top: 16px;

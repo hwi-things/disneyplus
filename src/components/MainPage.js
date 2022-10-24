@@ -40,7 +40,7 @@ const MainPage = () => {
   return (
     <>
       <div id="body">
-        <Carousel autoplay autoplaySpeed={2000}>
+        <Carousel autoplay autoplaySpeed={3000}>
           {banners.map((banner, index) => {
             return (
               <Link to={banner.href} key={index}>
